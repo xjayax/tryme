@@ -1,0 +1,474 @@
+{
+  "format": 1,
+  "restore": {
+    "I:\\rsbot\\Plugins\\RSBot.MonSuperPlugin\\RSBot.MonSuperPlugin.csproj": {}
+  },
+  "projects": {
+    "I:\\rsbot\\Botbases\\RSBot.Default\\RSBot.Default.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\rsbot\\Botbases\\RSBot.Default\\RSBot.Default.csproj",
+        "projectName": "RSBot.Default",
+        "projectPath": "I:\\rsbot\\Botbases\\RSBot.Default\\RSBot.Default.csproj",
+        "packagesPath": "C:\\Users\\utilisateur\\.nuget\\packages\\",
+        "outputPath": "I:\\rsbot\\Botbases\\RSBot.Default\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "I:\\rsbot\\Library\\RSBot.Core\\RSBot.Core.csproj": {
+                "projectPath": "I:\\rsbot\\Library\\RSBot.Core\\RSBot.Core.csproj"
+              },
+              "I:\\rsbot\\SDUI\\SDUI\\SDUI.csproj": {
+                "projectPath": "I:\\rsbot\\SDUI\\SDUI\\SDUI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Net.Sdk.Compilers.Toolset": {
+              "target": "Package",
+              "version": "[9.0.302, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "I:\\rsbot\\Library\\RSBot.Core\\RSBot.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\rsbot\\Library\\RSBot.Core\\RSBot.Core.csproj",
+        "projectName": "RSBot.Core",
+        "projectPath": "I:\\rsbot\\Library\\RSBot.Core\\RSBot.Core.csproj",
+        "packagesPath": "C:\\Users\\utilisateur\\.nuget\\packages\\",
+        "outputPath": "I:\\rsbot\\Library\\RSBot.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "I:\\rsbot\\Library\\RSBot.FileSystem\\RSBot.FileSystem.csproj": {
+                "projectPath": "I:\\rsbot\\Library\\RSBot.FileSystem\\RSBot.FileSystem.csproj"
+              },
+              "I:\\rsbot\\Library\\RSBot.NavMeshApi\\RSBot.NavMeshApi.csproj": {
+                "projectPath": "I:\\rsbot\\Library\\RSBot.NavMeshApi\\RSBot.NavMeshApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Net.Sdk.Compilers.Toolset": {
+              "target": "Package",
+              "version": "[9.0.302, )"
+            },
+            "PeNet": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "I:\\rsbot\\Library\\RSBot.FileSystem\\RSBot.FileSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\rsbot\\Library\\RSBot.FileSystem\\RSBot.FileSystem.csproj",
+        "projectName": "RSBot.FileSystem",
+        "projectPath": "I:\\rsbot\\Library\\RSBot.FileSystem\\RSBot.FileSystem.csproj",
+        "packagesPath": "C:\\Users\\utilisateur\\.nuget\\packages\\",
+        "outputPath": "I:\\rsbot\\Library\\RSBot.FileSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Net.Sdk.Compilers.Toolset": {
+              "target": "Package",
+              "version": "[9.0.302, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "I:\\rsbot\\Library\\RSBot.NavMeshApi\\RSBot.NavMeshApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\rsbot\\Library\\RSBot.NavMeshApi\\RSBot.NavMeshApi.csproj",
+        "projectName": "RSBot.NavMeshApi",
+        "projectPath": "I:\\rsbot\\Library\\RSBot.NavMeshApi\\RSBot.NavMeshApi.csproj",
+        "packagesPath": "C:\\Users\\utilisateur\\.nuget\\packages\\",
+        "outputPath": "I:\\rsbot\\Library\\RSBot.NavMeshApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "I:\\rsbot\\Library\\RSBot.FileSystem\\RSBot.FileSystem.csproj": {
+                "projectPath": "I:\\rsbot\\Library\\RSBot.FileSystem\\RSBot.FileSystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Net.Sdk.Compilers.Toolset": {
+              "target": "Package",
+              "version": "[9.0.302, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "I:\\rsbot\\Plugins\\RSBot.MonSuperPlugin\\RSBot.MonSuperPlugin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\rsbot\\Plugins\\RSBot.MonSuperPlugin\\RSBot.MonSuperPlugin.csproj",
+        "projectName": "RSBot.MonSuperPlugin",
+        "projectPath": "I:\\rsbot\\Plugins\\RSBot.MonSuperPlugin\\RSBot.MonSuperPlugin.csproj",
+        "packagesPath": "C:\\Users\\utilisateur\\.nuget\\packages\\",
+        "outputPath": "I:\\rsbot\\Plugins\\RSBot.MonSuperPlugin\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "I:\\rsbot\\Botbases\\RSBot.Default\\RSBot.Default.csproj": {
+                "projectPath": "I:\\rsbot\\Botbases\\RSBot.Default\\RSBot.Default.csproj"
+              },
+              "I:\\rsbot\\Library\\RSBot.Core\\RSBot.Core.csproj": {
+                "projectPath": "I:\\rsbot\\Library\\RSBot.Core\\RSBot.Core.csproj"
+              },
+              "I:\\rsbot\\SDUI\\SDUI\\SDUI.csproj": {
+                "projectPath": "I:\\rsbot\\SDUI\\SDUI\\SDUI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "I:\\rsbot\\SDUI\\SDUI\\SDUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\rsbot\\SDUI\\SDUI\\SDUI.csproj",
+        "projectName": "SDUI",
+        "projectPath": "I:\\rsbot\\SDUI\\SDUI\\SDUI.csproj",
+        "packagesPath": "C:\\Users\\utilisateur\\.nuget\\packages\\",
+        "outputPath": "I:\\rsbot\\SDUI\\SDUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Net.Sdk.Compilers.Toolset": {
+              "target": "Package",
+              "version": "[9.0.302, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[3.119.0, )"
+            },
+            "Svg": {
+              "target": "Package",
+              "version": "[3.4.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

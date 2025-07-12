@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wfg7aVD6owA=",
+  "success": true,
+  "projectFilePath": "I:\\rsbot\\Plugins\\RSBot.MonSuperPlugin\\RSBot.MonSuperPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\utilisateur\\.nuget\\packages\\excss\\4.2.3\\excss.4.2.3.nupkg.sha512",
+    "C:\\Users\\utilisateur\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.302\\microsoft.net.sdk.compilers.toolset.9.0.302.nupkg.sha512",
+    "C:\\Users\\utilisateur\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\utilisateur\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\utilisateur\\.nuget\\packages\\penet\\5.1.0\\penet.5.1.0.nupkg.sha512",
+    "C:\\Users\\utilisateur\\.nuget\\packages\\penet.asn1\\2.0.1\\penet.asn1.2.0.1.nupkg.sha512",
+    "C:\\Users\\utilisateur\\.nuget\\packages\\skiasharp\\3.119.0\\skiasharp.3.119.0.nupkg.sha512",
+    "C:\\Users\\utilisateur\\.nuget\\packages\\skiasharp.nativeassets.macos\\3.119.0\\skiasharp.nativeassets.macos.3.119.0.nupkg.sha512",
+    "C:\\Users\\utilisateur\\.nuget\\packages\\skiasharp.nativeassets.win32\\3.119.0\\skiasharp.nativeassets.win32.3.119.0.nupkg.sha512",
+    "C:\\Users\\utilisateur\\.nuget\\packages\\svg\\3.4.7\\svg.3.4.7.nupkg.sha512",
+    "C:\\Users\\utilisateur\\.nuget\\packages\\system.drawing.common\\5.0.3\\system.drawing.common.5.0.3.nupkg.sha512",
+    "C:\\Users\\utilisateur\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+I:\rsbot\Plugins\RSBot.MonSuperPlugin\obj\Debug\net8.0-windows\RSBot.MonSuperPlugin.csproj.AssemblyReference.cache
+I:\rsbot\Plugins\RSBot.MonSuperPlugin\obj\Debug\net8.0-windows\MonSuperPlugin.baml
+I:\rsbot\Plugins\RSBot.MonSuperPlugin\obj\Debug\net8.0-windows\MonSuperPlugin.g.cs
+I:\rsbot\Plugins\RSBot.MonSuperPlugin\obj\Debug\net8.0-windows\RSBot.MonSuperPlugin_MarkupCompile.cache
+I:\rsbot\Plugins\RSBot.MonSuperPlugin\obj\Debug\net8.0-windows\RSBot.MonSuperPlugin.g.resources
+I:\rsbot\Plugins\RSBot.MonSuperPlugin\obj\Debug\net8.0-windows\RSBot.MonSuperPlugin.Properties.Resources.resources
+I:\rsbot\Plugins\RSBot.MonSuperPlugin\obj\Debug\net8.0-windows\RSBot.MonSuperPlugin.csproj.GenerateResource.cache
+I:\rsbot\Plugins\RSBot.MonSuperPlugin\obj\Debug\net8.0-windows\RSBot.MonSuperPlugin.GeneratedMSBuildEditorConfig.editorconfig
+I:\rsbot\Plugins\RSBot.MonSuperPlugin\obj\Debug\net8.0-windows\RSBot.MonSuperPlugin.AssemblyInfoInputs.cache
+I:\rsbot\Plugins\RSBot.MonSuperPlugin\obj\Debug\net8.0-windows\RSBot.MonSuperPlugin.AssemblyInfo.cs
+I:\rsbot\Plugins\RSBot.MonSuperPlugin\obj\Debug\net8.0-windows\RSBot.MonSuperPlugin.csproj.CoreCompileInputs.cache
+I:\rsbot\Plugins\RSBot.MonSuperPlugin\obj\Debug\net8.0-windows\RSBot.MonSuperPlugin.sourcelink.json
